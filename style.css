@@ -1,0 +1,136 @@
+/* Write some CSS below */
+body{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	border: 1px solid brown;
+		 font-family: Overpass;
+	height: 50vh;
+	text-align: center;
+
+}
+button {
+	padding: 10px 20px;
+		 font-family: Overpass;
+		 font-weight: bold;
+		 background-color: #99625a;
+		 color: white;
+		 border: 1px solid white;
+		 border-radius: 10px;
+
+}
+a{ text-decoration: none; 
+ color: white;}
+
+img{
+	width: 100%;
+	height: 80%;
+	border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+}
+h1{
+	margin: 120px;
+	color: white ;
+	letter-spacing:15px;
+
+}
+.bar_title{
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+h3{ 
+	transform: translateY(-20px);
+font-size: 30PX; 
+    color: whitesmoke;
+/*    background-color:#ffdbb7;
+*/    width: 400px;
+    height: 30px;
+    margin: auto;
+    text-shadow: 2px 0 0 #99625a, -2px 0 0 #99625a, 0 2px 0 #99625a, 0 -2px 0 #99625a, 1px 1px #99625a, -1px -1px 0 #99625a, 1px -1px 0 #99625a, -1px 1px 0 #99625a;
+
+
+    }
+
+.banner {
+background-image: url("./images/lisbon2.jpg");
+background-size: cover ;
+background-position:  25%;
+}
+h2{ 
+	text-align:center;
+	color:#99625a
+}
+.card{ border: 1px solid #99625a;
+	  height: 300px ;
+	  width: 300px ;
+	  text-align: center;
+	  color: #e1b07f;
+	  border-radius: 20px;
+	  box-shadow: 0px 0px 10px rdga(0,0,0,1);
+
+} 
+.container{display: flex;
+			justify-content: space-around;
+
+}
+.container2{width: 50vw;
+margin: auto;
+border: 1px solid;
+margin-top: 30px;
+border-radius: 20px;}
+
+iframe{ border-top-left-radius: 20px;
+border-top-right-radius: 20px;}
+
+h5{ text-align:center; 
+    color: #99625a;
+font-family: Overpass;
+font-size: 20px;
+background-color:#e1b07f ;
+padding:  30px  0 30px 0 ;
+margin-bottom: 0;
+    
+   }
+   h6{font-family: Overpass;
+		 font-weight: bold;
+   	text-align: center;
+	  color: #e1b07f;
+	  font-size: 15
+	  px;}
+
+   .container2{
+   	margin-top:2 ;
+   }
+   form{transform: translate(1135PX, -15px);}
+
+   .bouton{background-color: #e1b07f;
+   	border-color: e1b07f;
+   	border-radius: 12PX;
+    color: white;
+    font-weight: bold;
+    padding: 5PX;
+    border: 1PX solid;
+
+   
+
+   }
+   
+   .recherche{
+border-color:#e1b07f ;
+width: 150 PX;
+border-radius: 12PX;
+padding: 5px;
+
+
+   }
+   .map{
+   	border-radius:20px;
+   	margin-top: 30PX;
+   }
+   .container3{ 
+   width: 600px ;
+   margin: auto;
+}
+
